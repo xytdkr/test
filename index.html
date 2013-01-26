@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Yu Guan, the developer</title>
+<script type="text/javascript" src="jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.slidertron-0.1.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+@import "slidertron.css";
+</style>
+</head>
+<body>
+<!-- end #header-wrapper -->
+<div id="logo">
+  <h1>Yu Guan</h1>
+	<p>Software and Web Developer</p>
+</div>
+<div id="header">
+	<div id="menu">
+		<ul>
+			<li><a href="#" class="first">Homepage</a></li>
+			<li class="current_page_item"><a href="http://xiangyake.com">Web design samples</a> </li>
+				
+		<!--		<ul>
+					<li><a href="http://www.xiangyake.com" title=" UI design"> Furniture store UI Design</a></li>
+				</ul> -->
+			<li><a href="http://xiangyake.com/Web_Jquery/index.html"> JS samples</a></li>
+			<li><a href="#">About</a></li>
+			
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="search">
+		<form method="get" action="">
+			<fieldset>
+				<input type="text" name="s" id="search-text" size="15" />
+			</fieldset>
+		</form>
+	</div>
+	<!-- end #search -->
+</div>
+<!-- end #header -->
+<hr />
+<!-- end #logo -->
+<div id="slideshow">
+	<!-- start -->
+	<div id="foobar">
+		<div id="col1"><a href="#" class="previous">&nbsp;</a></div>
+		<div id="col2">
+			<div class="viewer">
+				<div class="reel">
+					<div class="slide"><img src="images/imgCal.jpg" width="726" height="335" alt="" /> <span>A sample layout for local furniture store</span> </div>
+					<div class="slide"><img src="images/imgFlr.jpg" width="726" height="335" alt="" /> <span>A jQuery picture slide effect</span> </div>
+					
+				</div>
+			</div>
+		</div>
+		<div id="col3"><a href="#" class="next">&nbsp;</a></div>
+	</div>
+	<script type="text/javascript">
+
+						$('#foobar').slidertron({
+							viewerSelector:			'.viewer',
+							reelSelector:			'.viewer .reel',
+							slidesSelector:			'.viewer .reel .slide',
+							navPreviousSelector:	'.previous',
+							navNextSelector:		'.next',
+							navFirstSelector:		'.first',
+							navLastSelector:		'.last'
+						});
+						
+					</script>
+	<!-- end -->
+</div>
+<div id="page">
+	<div id="page-bgtop">
+		<div id="content">
+			<div class="post">
+				<p class="meta">Work Experience</p>
+				<h2 class="title"><a href="#">NexJ - Software Developer </a></h2>
+				<div class="entry">
+					<li> Extending the capabilities of NexJ’s Studio Express Server to support multimedia for online gaming </li>
+ 					<li> Create HTML5 canvas website to store and process information through NexJ Studio Express server  </li> 
+ 					<li> Update the website information by retrieving data from database  </li> 
+ 					<li> Research on game physical engines </li>
+			
+				</div>
+			</div>
+			<div class="post">
+				
+				<h2 class="title"><a href="#">Miller Lash House - Website Coordinator</a></h2>
+				<div class="entry">
+					<li>Maintained and updated the website regularly</li>
+					<li>Optimized website for the search engines, make sure the website will appear on the first page in Google using keyword search  </li>
+					<li>Adding new functions using JavaScript or PHP to enhance web performance</li>
+				</div>
+				
+			</div>
+			<div class="post">
+				<p class="meta">Volunteer Experience</p>
+				<h2 class="title"><a href="#">Carefirst Seniors </a></h2>
+				<div class="entry">
+					<li>Involved in different projects such as Volunteer Development Training Program, Youth Volunteer Focus Group Meeting and other administration support for the unit</li>
+					<li>Designed flyers and training materials for community events using Photoshop and Microsoft Publisher </li>
+					<li>Prepare and update documents for volunteer training, translate documents from Chinese to English or vise versa </li>
+				</div>
+				
+			</div>
+
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>Programming Languages: </h2>
+					<p>HTML &amp; HTML5 , jQuery, C#, JS, Java, Python, XML, PHP and mySQL</p>
+				</li>
+				<li>
+					<h2>OS and Software used: </h2>
+					<ul>
+						<li><a href="#">Windows OS</a></li>
+						<li><a href="#">Ubuntu</a></li>
+						<li><a href="#">Microsoft Visual Studio 2010</a></li>
+						<li><a href="#">Eclipse</a></li>
+						<li><a href="#">Adobe CS Design &amp; Web Premium</a></li>
+						<li><a href="#">Mathlab</a></li>
+						<li><a href="#">Mercurial</a></li>
+						<li><a href="#">Microsoft Office</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2>Favourite</h2>
+					<ul>
+						<li><a href="#">Computer Languages: C#, Java</a></li>
+						<li><a href="#">Mobile System: Android</a></li>
+						<li><a href="#">Course: Software Design </a></li>
+						<li><a href="#">Games: FIFA2009, Red Alert</a></li>
+						<li><a href="#">Sports: Badminton, Soccer</a></li>
+						<li><a href="#">Book: Dead Poet Society</a></li>
+						<li><a href="#">Movie: The Rock, Hitch</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>Yu Guan,  E-mail:gyca2001@yahoo.ca</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
